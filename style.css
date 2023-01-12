@@ -1,0 +1,138 @@
+body{
+    background-color: #F3F5FC;
+}
+
+h1 img{
+    margin: 2%;
+}
+
+main{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.container-mensaje{
+    width: 70%;
+    position: relative; 
+    background-color: #F3F5FC; 
+}
+
+#mensaje{
+    width: 60%;
+    height: auto;
+    border: none;
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+    padding: 5%;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+    font-size: 3vmin;
+}
+
+.container-botones{
+    background-color: #F3F5FC;
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 12%;
+    top: 100%;
+}
+
+#encriptar, #desencriptar{
+    font-size: 1.5vmax;
+    flex: 1 2;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    color: white;
+}
+
+#desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+
+#cambio{
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    color: #343A40;
+    font-size: 25px;
+    margin: 5px;
+    border: 0;
+    outline: none;
+    resize: none;
+    height:50%;
+}
+
+.traduccion{
+    width:20%;
+    height: 65%;
+    border: #FFFFFF solid 1px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.08);
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 60%;
+}
+
+.container-img{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.traduccion img{
+    height: 100%;
+    width: 100%;
+}
+
+.container-texto{
+    width: 100%;
+    display: flex;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#texto-indicacion1{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 3.5vmin;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+}
+
+#texto-indicacion2{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 2.5vmin;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+}
+
+
+#copiar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    padding: 20px 0;
+    font-size: 2.8vmin;
+    width: 100%;
+}
