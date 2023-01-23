@@ -20,13 +20,20 @@ main{
     background-color: #F3F5FC; 
 }
 
+label{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+    margin-bottom: 3px;
+}
+
 #mensaje{
     width: 60%;
     height: auto;
     border: none;
     background-color: #F3F5FC;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 2% 2%;
     outline: none;
     font-family: 'Inter', sans-serif;
     color: #343A40;
