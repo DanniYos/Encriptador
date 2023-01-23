@@ -22,6 +22,7 @@ main{
 
 label{
     display: block;
+    font-size: 13px;
     font-family: 'Inter', sans-serif;
     color: #343A40;
     margin-bottom: 3px;
@@ -29,7 +30,7 @@ label{
 
 #mensaje{
     width: 60%;
-    height: auto;
+    margin-bottom: 400px;
     border: none;
     background-color: #F3F5FC;
     box-sizing: border-box;
@@ -38,22 +39,16 @@ label{
     font-family: 'Inter', sans-serif;
     color: #343A40;
     font-size: 3vmin;
-}
-
-.container-botones{
-    background-color: #F3F5FC;
-    position: absolute;
-    display: flex;
-    width: 60%;
-    height: 12%;
-    top: 100%;
+    display: block;
+    
 }
 
 #encriptar, #desencriptar{
+    display: inline-block;
     font-size: 1.5vmax;
-    flex: 1 2;
     margin: 5px;
     border-radius: 10px;
+    padding: 30px 50px;
 }
 
 #encriptar{
@@ -80,7 +75,7 @@ label{
 
 .traduccion{
     width:20%;
-    height: 65%;
+    height: 80%;
     border: #FFFFFF solid 1px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.08);
@@ -100,7 +95,6 @@ label{
 }
 
 .traduccion img{
-    height: 100%;
     width: 100%;
 }
 
