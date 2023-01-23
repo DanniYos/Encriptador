@@ -1,4 +1,40 @@
-@media (max-width:480px){
-   
+@media (max-width: 480px){
+    .main{
+        flex-direction: column;
+
+    }
+
+    .container-mensaje{
+        display: block;
+    }
+
+    #mensaje{
+        margin-bottom: 180px;
+
+    }  
+
+    #encriptar, #desencriptar{
+        display: inline-block;
+        font-size: 1.5vmax;
+        margin: 5px;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .traduccion{
+        display: flex;
+        box-sizing: border-box;
+        height: 235px;
+        width: 100%;
+        top: 65%;
+        left: 0;
+    }
+
+    .traduccion img{
+        width: 100%;
+        height: 75px;
+        display: block;
+    }
 
 }
