@@ -87,7 +87,7 @@ mensaje.addEventListener('keyup', validar);
         let copyText = document.querySelector("#cambio");
         copyText.select();
         document.execCommand("copy");
-        swal('Copiado');
+        swal('Texto Copiado');
       }
 
 
