@@ -9,7 +9,7 @@
     }
 
     #mensaje{
-        margin-bottom: 180px;
+        margin-bottom: 90px;
 
     }  
 
@@ -22,18 +22,28 @@
         padding: 20px 30px;
     }
 
+    textarea{
+        height: 75px;
+        font-size: 20px;
+    }
+
+
     .traduccion{
         display: flex;
         box-sizing: border-box;
-        height: 235px;
+        height: 225px;
         width: 100%;
-        top: 65%;
+        top: 340px;
         left: 0;
+    }
+
+    .container-img{
+        height: 75px;
     }
 
     .traduccion img{
         width: 100%;
-        height: 75px;
+        height: 100%;
         display: block;
     }
 
