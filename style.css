@@ -1,5 +1,6 @@
 body{
-    background-color: #F3F5FC;
+    background: rgb(231,227,169);
+    background: linear-gradient(90deg, rgba(231,227,169,1) 0%, rgba(243,209,249,1) 49%, rgba(190,224,231,1) 100%);
 }
 
 h1 img{
@@ -17,7 +18,7 @@ main{
 .container-mensaje{
     width: 70%;
     position: relative; 
-    background-color: #F3F5FC; 
+    background-color: transparent; 
 }
 
 label{
@@ -32,7 +33,7 @@ label{
     width: 60%;
     margin-bottom: 315px;
     border: none;
-    background-color: #F3F5FC;
+    background-color: transparent;
     box-sizing: border-box;
     padding: 2% 2%;
     outline: none;
@@ -63,7 +64,7 @@ label{
 
 textarea{
     font-family: 'Inter', sans-serif;
-    background-color: #F3F5FC;
+    background-color: transparent;
     color: #343A40;
     font-size: 25px;
     margin: 5px;
