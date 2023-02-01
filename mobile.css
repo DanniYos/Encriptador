@@ -10,6 +10,7 @@
 
     #mensaje{
         margin-bottom: 90px;
+        background-color: transparent;
 
     }  
 
@@ -23,8 +24,8 @@
     }
 
     textarea{
-        height: 75px;
         font-size: 20px;
+        overflow: hidden;
     }
 
 
