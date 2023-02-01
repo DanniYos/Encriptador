@@ -1,5 +1,5 @@
 var mensaje = document.getElementById("mensaje");
-var h3 = document.getElementById("cambio");
+var desifrado = document.getElementById("cambio");
 var boton = document.getElementById("encriptar");
 boton.addEventListener('click', encriptar);
 var muneco = document.getElementById('muneco');
@@ -15,7 +15,7 @@ function validar(){
         muneco.style.display = "block";
         txt1.style.display = "block";
         txt2.style.display = "block";
-        h3.innerHTML = '';
+        desifrado.innerHTML = '';
     }else{
 
     }
@@ -41,8 +41,8 @@ mensaje.addEventListener('keyup', validar);
              frase = frase + x.charAt(y);
          }
      }
-     h3.innerHTML = frase;
-     h3.setAttribute('height', '500px');
+     desifrado.innerHTML = frase;
+     desifrado.style.overflow = 'auto';
      muneco.style.display="none";
      txt1.style.display="none";
      txt2.style.display="none";
@@ -77,7 +77,8 @@ mensaje.addEventListener('keyup', validar);
             }
 
         }
-        h3.innerHTML = frase;
+        desifrado.innerHTML = frase;
+        desifrado.style.overflow = 'auto';
         muneco.style.display="none";
         txt1.style.display="none";
         txt2.style.display="none";
